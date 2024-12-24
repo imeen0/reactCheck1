@@ -8,11 +8,11 @@ import Price from './Price'
 import Description from './Description'
 import Image from './Image'
 
-const firstName = "skou"
+const firstName = "imen"
 
 function App() {
   return (
-    <Container className="mt-5">
+    <Container>
       <Card style={{ width: '18rem'}}>
         <Image src={product.image} alt={product.name} />
         <Card.Body>
@@ -30,7 +30,6 @@ function App() {
           <img
             src="soura.png"
             alt="profile"
-            style={{ borderRadius: '50%', marginTop: '10px' }}
           />
         )}
       </div>
