@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 import { Container, Card } from 'react-bootstrap'
 import product from './product'
-import Name from './Name'
-import Price from './Price'
-import Description from './Description'
-import Image from './Image'
+import Name from './name'
+import Price from './price'
+import Description from './description'
+import Image from './image'
 
 const firstName = "imen"
 
